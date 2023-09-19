@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(-45deg, #402d75, #1d9478, #8eac50, #d3d04f);
+  background: linear-gradient(-45deg, #402d75, #543696, #8eac50, #d3d04f);
   background-size: 400% 400%;
   height: 300vh;
   animation: gradient 15s ease infinite;
@@ -298,5 +298,19 @@ footer a:hover {
   #game p {
     font-size: 0.8rem;
     padding-left: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .features-container {
+    width: 58vw;
+  }
+  #footer li {
+    font-size: 0.8rem;
+    padding: 2px;
+  }
+
+  .nav-links,
+  #game p {
+    font-size: 0.7rem;
   }
 }
