@@ -240,3 +240,63 @@ footer a:hover {
   color: rgb(209, 209, 86);
   border-radius: 5%;
 }
+
+@media (max-width: 992px) {
+  body {
+    height: 200vh;
+  }
+
+  #main {
+    width: 60vw;
+    height: 200vh;
+  }
+
+  #features {
+    height: 60vh;
+  }
+
+  hr {
+    width: 60vw;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+
+  #cnct {
+    display: block;
+    height: 10vw;
+    text-align: center;
+  }
+
+  .about {
+    font-size: 0.8rem;
+  }
+
+  .features-container {
+    width: 45vw;
+  }
+
+  .dcp {
+    font-size: 0.8rem;
+  }
+
+  #nav,
+  #nav-info,
+  #game {
+    width: 20vw;
+  }
+
+  .nav-links,
+  #game p {
+    font-size: 0.8rem;
+    padding-left: 0px;
+  }
+}
